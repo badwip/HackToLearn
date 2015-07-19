@@ -13,3 +13,4 @@ Even 4 lines if we want, or 5, or 6.
 
 # Study Drills
 
+## Check your work, write down your mistakes, try not to make them on the next exercise.
