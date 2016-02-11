@@ -1,2 +1,2 @@
-# belajar
-repo belajar ngoding
+# Hack To Learn
+Just a repo
