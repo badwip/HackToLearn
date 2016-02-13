@@ -1,0 +1,18 @@
+Command & Usage
+
+# command refers to vi command for change, delete, or copy
+command + H	: execute till the top of the screen
+commant + L	: execute till bottom of the screen
+command + +	: execute dua baris ke bawah
+command + n + l	: eksekusi sampai karakter n di baris yang sama
+command + / + text	: eksekusi sampai text ditemukan
+command + n	: lanjut eksekusi dengan text dari pencarian sebelumnya (forward), N (backward)
+command + f + c		: eksekusi sampai karakter c pertama kali ditemukan (forward), F (backward)
+command + t + c		: eksekusi sampai suatu karakter sebelum karakter c ditemukan (forward), T (backward)
+
+
+VI Command outside the editor
+~$ vi +n filename	: buka file dan tempatkan cursor di baris n
+~$ vi + filename	: buka file dan cursor ditempatkan di baris paling akhir
+~$ vi +/text filename	: buka file di baris text berada	# berguna jika harus ditutup dulu karena ada keperluan lain (bookmark)
+~$ vi -R == ~$ view	: read only mode
