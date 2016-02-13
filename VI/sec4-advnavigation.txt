@@ -1,0 +1,34 @@
+Command & Usage
+
+CTRL +F / +B	: one screen forward/backward
+CTRL +D / +U	: half screen forward/backward
+CTRL +E / +Y	: one line forward/backward
+z + enter   : reposition screen to the top
+z + .	    : reposition screen to the center
+z + -	    : reposition screen to the bottom
+H	: move to the top of the screen
+M	: move to the middle of the screen
+L	: last line
+Enter	: go one line down
++	: go one line down
+-	: go one line up
+
+^   : go to first non blank char of the current line
+n|  : go to position n of the current line
+(   : go to the beginning of the current sentence
+)   : go to the beginning of the next sentence
+{   : go to the beginning of the current paragraph
+}   : go to the beginning of the next paragraph
+/   : search for text
+    n	: next text searched
+    N	: previous text searched
+
+fc  : move to the next occurence of the c char
+Fc  : move to the previous occurence of the c char
+tc  : move to the char before the next occurence of the c char
+Tc  : move to the char after the next occurence of the c char
+;   : repeat the last search command in forward direction
+,   : repeat the last search command in backward direction
+CTRL + G    : show statistic current position
+``  : return to the previous location before jumping 
+''  : return to the beginning of the line before jumping

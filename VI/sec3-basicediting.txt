@@ -1,0 +1,55 @@
+Command & Usage
+
+h   : move one char to the right 
+j   : move one line down 
+k   : move one line up
+l   : move one char to the right
+0   : move to the line start
+$   : move to the line end
+e   : move to end of the word (including punctuation)
+E   : move to end of the word (punctuation ignored)
+w   : move one word forward (including punctuation)
+W   : move one word forward (punctuation ignored)
+2b  : move two word backward (including punctuation)
+B   : move one word backward (punctuation ignored)
+G   : move to the end line of file
+1G  : move to line number 1 of the file
+
+i   : text inserted before current cursor position
+I   : text inserted at the start of current line
+a   : append text after current cursor position
+A   : append text at the end of current line
+o   : insert a new line after the current line
+O   : insert a new line before the current line
+
+c   : change text, need to be combined
+cw  : changes one word forward
+cb  : changes one word backward
+c1G : deletes all text till the start of the document
+C = c$	: deletes text to the end of the line
+cc = S : replace the line
+r   : replace single char without insert mode
+R   : overwriting text in replace mode
+3s  : replace the following three char with new text
+~   : change char's case
+d   : deletion/cutting words
+dw  : delete one word forward
+db  : delete one word backward
+d0  : delete everything till the start of current line
+D - d$	: delete everything till the end of current line
+dd  : delete entire line
+x   : delete/cut one char at a time (forward)
+x   : delete/cut one char at a time (backward)
+
+y   : yank (copy) a text
+y2w : yank next to words
+y$  : copy text from current position to the end of line
+y0  : copy text from current position to the start of line
+yy = Y : copy entire line
+p   : put (paste) after current position
+P   : put (paste) after current position
+4J  : join next four consecutive lines
+u   : undo the last action
+uu  : undo the undo
+U   : undo all changes done on the current line
+.   : repeat the last command
