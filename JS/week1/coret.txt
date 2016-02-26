@@ -1,3 +1,0 @@
-header footer #668284
-right #f4ebc3
-left #b9d7d9
