@@ -1,0 +1,16 @@
+class	: digunakan untuk menerapkan style yang sama pada beberapa element html
+id		: digunakan pada salah satu element html untuk membedakan satu element tersebut dengan element yang sama. ex: terdapat 3 element <h1> dan hanya element ke-2 yang memiliki style berbeda dari element <h1> yang lain.
+
+Pseudo-class selectors:
+* a:link	: an unvisited link
+* a:visited	: a visited link
+* a:hover	: a link you're hovering your mouse over
+* p:first-child	: all paragraphs that are first children of their parent elements
+* p:nth-child(n) : every paragraph that is n child of its parent element
+
+property name	: display
+value		: block; inline-block; inline; none
+
+The #outer div to have absolute positioning. This means that when you position the #inner div, it will be relative to #outer. (If #outer had the default positioning of static, then #inner would get positioned relative to the entire HTML document.)
+
+If you give an element relative positioning and tell it to have a margin-top of 10px, it doesn't move down ten pixels from any particular thing—it moves down ten pixels from where it otherwise would have been.
