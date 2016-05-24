@@ -1,0 +1,10 @@
+BITBUCKET
+
+basic_sshbotnet.py
+* try:
+* except Exception as e:
+
+ssh_bruteforce.py
+* with open(dict, 'r') as infile:
+* \r
+* str()

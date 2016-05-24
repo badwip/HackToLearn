@@ -1,0 +1,70 @@
+print "Hello Worlds!"
+# A comment
+print "Roosters", 100 - 25 * 3 % 4	# output: "Roosters 97" <-- it prints arithmetic into a string
+print "Some string", 5 > 2		# output: "Some string True" <-- it prints boolean result
+
+
+cars = 100			# assigning variable
+print "There are", cars		# output: "There are 100" <-- calling for variable
+print "Let's talk about %s." % name	# output: "Let's talk about name" <-- calling for variable that is a string (%s)
+print "He's %d cm tall." % height	# output: "He's 170 cm tall." <-- calling for variable that is an integer (%d) 
+print "I said: %r." % x		# output: "I said: 'One full sentences'." <-- calling for variable that resulted a sentence in debugging mode (' ')
+print joke_evaluation % hilarious	# merging two variable into one which the latter is a variable that called by the first variable
+print w + e		# combining two variable containing string into one line sentence
+
+
+print "." * 10		# '.' repeated 10 times
+# in a print statement when we're combining two or more variable, comma is used to get next line into the same line and add space between. Example:
+print end1 + end2,
+print end3 + end 4
+
+
+# calling multiple variable
+formatter = "%r %r"
+print formatter % (1, 2)
+# put variable inside the same variable
+print formatter % (formatter, formatter)
+# another way to call multiple variable
+print formatter % (
+	"I had this thing.",
+	"That you could type up right."
+)
+
+
+\n => next line; could also use inside a string variable to make a multiple line
+# multiple line printing
+print """
+	There's something going on here.
+	With the three double quotes.
+	We'll be able to type as much as we like.
+	Even 4 lines if we want, or 5, or 6.
+"""
+\t => jump to one tab forward
+\  => escaping the next character
+
+
+raw_input() => a function to ask user to input only string
+int(raw_input()) => a function to convert a string input by user into an integer
+
+
+from sys import argv	# this is how you add features to your script from the python module set
+script = argv		# unpack 'argv' into variable
+open(filename)		# opening file based on the argument
+print file.read()	# print variable's contents
+file.close()		# when it opens then it should be close after it used
+file.truncate()		# empties the file
+file.write()		# write to the file
+file.readline()		# read just one line of a text file
+file.seek(0)		# seek for the beginning line and beginning column of the file read
+from os.path import exists	# importing exists() function into the script
+open(filename).read()	# opening then read the file
+len(var)		# returns the number of elements in the variable
+exists(file)		# returns True or False to an existing file
+
+# a function built in an order
+def function(par):
+	print "bla bla bla"	# should be indented four spaces so it will be considered as the code inside the function 
+
+*args => a pointer of a variable
+return			# returning the value of a function when it was called/run
+what = add(age, subtract(height, multiply(weight, divide(iq, 2))))	# this will called backward
