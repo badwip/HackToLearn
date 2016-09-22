@@ -4,7 +4,7 @@ def gold_room():
 	print "This room is full of gold. How much do you take?"
 	
 	choice = raw_input("> ")
-	if "0" in choice or "1" in choice:
+	if "1" in choice or "0" in choice:
 		how_much = int(choice)
 	else:
 		dead("Man, learn to type a number.")
@@ -76,3 +76,24 @@ def start():
 		
 	
 start()
+
+
+# Study Drills number 3
+# The gold_room has a weird way of getting you to type a number. 
+# What are all the bugs in this way of doing it? Can you make it better 
+# than what I've written? Look at how int() works for clues.
+
+#def gold_room():
+#	print "This room is full of gold. How much do you take?"
+#	
+#	choice = raw_input("> ")
+#	try:
+#		how_much = int(choice)
+#	except ValueError:
+#		dead("Man, learn to type a number.")
+#	
+#	if how_much < 50:
+#		print "Nice, you're not greedy, you win!"
+#		exit(0)
+#	else:
+#		dead("You greedy bastard!")
