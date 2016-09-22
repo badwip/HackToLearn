@@ -78,7 +78,7 @@ def start():
 start()
 
 
-# Study Drills number 3
+# Study Drills number 5
 # The gold_room has a weird way of getting you to type a number. 
 # What are all the bugs in this way of doing it? Can you make it better 
 # than what I've written? Look at how int() works for clues.
